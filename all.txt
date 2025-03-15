@@ -1,0 +1,13 @@
+ostore
+OStore
+Orange app store for kaios 3.1
+56.png
+app
+1.0.1
+
+greg
+Greg
+Effortlessly manage your schedule with GREG for KaiOS. Save events locally or sync external calendars, including Nextcloud/Google via CalDAV. Navigate months, slide through events, and quickly jump to today with intuitive controls. Plus, enjoy a moon phase calendar with a press of a button (#). Stay organized with ease.
+56.png
+app
+3.0.654
