@@ -1,6 +1,6 @@
 const fs=require('fs')
 
-const popularNames=fs.readFileSync("popular.txt").toString().trim().split('\n')
+const popularIds=fs.readFileSync("popular.txt").toString().trim().split('\n')
 const src=fs.readFileSync("all.txt").toString().trim().split('\n')
 
 const popularList=[]
@@ -17,7 +17,7 @@ while(i<src.length){
         version:src[i++]
     }
     appList.push(data)
-    if(popularNames.find((name)=>name==data.name)){
+    if(popularIds.find((id)=>id==data.id)){
         popularList.push(data)
     }
     i++;

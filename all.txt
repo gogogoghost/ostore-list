@@ -11,3 +11,10 @@ Effortlessly manage your schedule with GREG for KaiOS. Save events locally or sy
 56.png
 app
 3.0.654
+
+wikipedia
+Wikipedia
+With the free Wikipedia app, search and explore information from all over the world in 300+ languages.
+56.png
+app
+0.0.1
