@@ -3,7 +3,7 @@ Ostore
 Orange app store for kaios 3.1
 56.png
 app
-1.0.3
+1.0.4
 
 greg
 Greg
