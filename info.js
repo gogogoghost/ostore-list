@@ -25,7 +25,8 @@ if(imgSrc.startsWith('/')){
 }
 const imgData=zip.getEntry(imgSrc).getData()
 const imgOutputName=imgSize+"."+imgType
-fs.writeFileSync("output/"+imgOutputName,imgData)
+const imgFileName=id+"_"+imgOutputName
+fs.writeFileSync("output/"+imgFileName,imgData)
 
 const outputZipName=id+"_"+version+".zip"
 fs.copyFileSync(filePath,"output/"+outputZipName)
